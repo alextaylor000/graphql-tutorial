@@ -1,0 +1,17 @@
+{
+  "1": {
+    "id": "1",
+    "name": "Dan",
+    "email": "dan@facebook.com"
+  },
+  "2": {
+    "id": "2",
+    "name": "Marie",
+    "email": "marie@facebook.com"
+  },
+  "3": {
+    "id": "3",
+    "name": "Jessie",
+    "email": "jessie@facebook.com"
+  }
+}

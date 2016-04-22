@@ -45,7 +45,7 @@ var schema = new graphql.GraphQLSchema({
 });
 
 express()
-  .use('/graphql', graphqlHTTP({ schema: schema, pretty: true }))
+  .use('/graphql', graphqlHTTP({ schema: schema, pretty: true, graphiql: true }))
   .listen(3000);
 
 console.log('GraphQL server running on http://localhost:3000/graphql');
